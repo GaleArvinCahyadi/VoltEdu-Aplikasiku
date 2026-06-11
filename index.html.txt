@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Google Script</title>
+    <style>
+        /* Tetapan untuk membuang jidar (margin) dan menjadikan iframe sepenuh skrin */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Mengelakkan bar tatal ganda */
+            background-color: #f4f4f9;
+        }
+        
+        /* Gaya untuk iframe */
+        .script-iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* Membuang sempadan bingkai */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Iframe yang membenamkan URL Google Script anda -->
+    <iframe 
+        class="script-iframe" 
+        src="https://script.google.com/macros/s/AKfycbw24S9xl2kwU-POJVGeJWmjub9uBrNG6y-j-TcTXp2u8c1Yxwz7wkc84oOskX8Jhi3Q/exec" 
+       </iframe>
+
+</body>
+</html>
